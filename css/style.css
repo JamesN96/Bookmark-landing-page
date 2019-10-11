@@ -50,11 +50,13 @@ header nav button {
 }
 
 /* Intro */
+#intro {
+    margin-bottom: 90px;
+}
 
 #intro #intro-content {
     float: left;
     width: 48%;
-    border: 1px solid blue;
 }
 
 #intro .container {
@@ -99,9 +101,14 @@ header nav button {
 }
 
 #intro #intro-img {
-    border: 1px solid purple;
     float: right;
     margin-top: 85px;
     margin-right: -20px;
     padding: 0px;
+}
+
+/* Features */
+
+#features #content {
+    text-align: center;
 }
