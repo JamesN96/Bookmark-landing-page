@@ -11,3 +11,18 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
+/* Header */
+
+header img {
+    margin-top: 55px;
+}
+
+/* Nav */
+
+header nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
