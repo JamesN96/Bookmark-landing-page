@@ -74,6 +74,14 @@ header nav button {
     width: 75%;
     line-height: 28px;
 }
+
+#intro-content button {
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
 #intro #intro-img {
     border: 1px solid purple;
     float: right;
