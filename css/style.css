@@ -79,7 +79,16 @@ header nav button {
     width: 165px;
     height: 40px;
     border-radius: 5px;
+    border: none;
     margin-left: 90px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#intro-content #btn-1 {
+    background-color: hsl(231, 69%, 60%);
+    color: #ffffff;
+    border: none;
 }
 
 #intro #intro-img {
