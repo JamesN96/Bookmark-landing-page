@@ -77,10 +77,11 @@ header nav button {
 
 #intro-content button {
     width: 165px;
-    height: 40px;
+    height: 45px;
     border-radius: 5px;
     border: none;
-    margin-left: 90px;
+    margin-left: 92px;
+    margin-top: 10px;
     font-size: 13px;
     font-weight: bold;
 }
@@ -89,6 +90,12 @@ header nav button {
     background-color: hsl(231, 69%, 60%);
     color: #ffffff;
     border: none;
+}
+
+#intro-content #btn-2 {
+    /* box-shadow: 2px 2px 8px 2px rgb(191, 191, 191); */
+    margin-left: 10px;
+    background-color: rgba(249, 249, 249, 0.938);
 }
 
 #intro #intro-img {
