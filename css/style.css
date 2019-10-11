@@ -48,3 +48,16 @@ header nav button {
     font-weight: 500;
     letter-spacing: 1.5px;
 }
+
+/* Intro */
+
+#intro #intro-content {
+    float: left;
+    width: 40%;
+    border: 1px solid blue;
+}
+
+#intro #intro-img {
+    border: 1px solid purple;
+    float: right;
+}
