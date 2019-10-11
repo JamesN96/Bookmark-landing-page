@@ -112,3 +112,14 @@ header nav button {
 #features #content {
     text-align: center;
 }
+
+#content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    width: 47%;
+    line-height: 28px;
+    margin: 0 auto;
+}
