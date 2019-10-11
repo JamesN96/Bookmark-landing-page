@@ -25,8 +25,8 @@ header img {
 header nav ul {
     float: right;
     list-style: none;
-    margin-top: 55px;
-    margin-right: 80px;
+    margin-top: 50px;
+    margin-right: 20px;
 }
 
 header nav ul li {
