@@ -65,8 +65,15 @@ header nav button {
     font-size: 47px;
     margin-left: 90px;
     margin-top: 165px;
+    margin-bottom: 25px;
 }
 
+#intro-content p {
+    color: hsl(229, 8%, 60%);
+    margin-left: 90px;
+    width: 75%;
+    line-height: 28px;
+}
 #intro #intro-img {
     border: 1px solid purple;
     float: right;
