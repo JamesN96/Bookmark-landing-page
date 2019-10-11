@@ -93,7 +93,7 @@ header nav button {
 }
 
 #intro-content #btn-2 {
-    /* box-shadow: 2px 2px 8px 2px rgb(191, 191, 191); */
+    box-shadow: 2px 1px 8px 1px rgb(191, 191, 191);
     margin-left: 10px;
     background-color: rgba(249, 249, 249, 0.938);
 }
