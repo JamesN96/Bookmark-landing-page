@@ -288,3 +288,18 @@ header nav button {
     color: rgb(165, 165, 165);
     line-height: 28px;
 }
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    border: 1px solid red;
+    background-color:  hsl(231, 69%, 60%);
+    color: white;
+}
+
+#contact h4 {
+    margin-top: 60px;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
