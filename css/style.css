@@ -25,6 +25,10 @@ body {
     border-top: 4px dotted rgb(165, 165, 165);
 }
 
+.content {
+    display: none;
+}
+
 /* Header */
 
 header img {
