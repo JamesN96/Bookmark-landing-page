@@ -336,3 +336,18 @@ header nav button {
     margin-left: 15px;
     margin-bottom: -10px
 }
+
+/* Footer */
+
+footer {
+    background-color: hsl(229, 31%, 21%);
+}
+
+footer nav ul {
+    list-style: none;
+    color: #ffffff;
+}
+
+footer nav ul li {
+    display: inline;
+}
