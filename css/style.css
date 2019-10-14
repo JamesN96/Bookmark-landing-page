@@ -303,3 +303,10 @@ header nav button {
     font-size: 13px;
     letter-spacing: 5px;
 }
+
+#contact h1 {
+    font-size: 32px;
+    font-weight: 100;
+    width: 40%;
+    margin: 35px auto;
+}
