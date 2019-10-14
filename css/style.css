@@ -210,3 +210,13 @@ header nav button {
     color: rgb(165, 165, 165);
     line-height: 28px;
 }
+
+/* Download Grids */
+
+#grid {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    grid-template-rows: 350px;
+    
+}
