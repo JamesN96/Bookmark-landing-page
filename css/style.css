@@ -123,3 +123,21 @@ header nav button {
     line-height: 28px;
     margin: 0 auto;
 }
+
+/* Features Nav */
+
+#features-nav {
+    border-bottom: 1px solid gray;    
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+#features-nav ul {
+    list-style: none;
+}
+
+#features-nav ul li {
+    display: inline;
+    padding-right: 82px;
+}
