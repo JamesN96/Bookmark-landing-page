@@ -195,17 +195,18 @@ header nav button {
 
 #download-content {
     text-align: center;
-    margin-top: 223px;
+    margin-top: 240px;
 }
 
 #download-content h1 {
-    font-size: 29px;
+    font-size: 32px;
+    margin-bottom: 23px;
 }
 
 #download-content p {
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 18px;
     color: rgb(165, 165, 165);
-    line-height: 25px;
+    line-height: 28px;
 }
