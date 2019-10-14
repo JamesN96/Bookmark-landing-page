@@ -293,7 +293,6 @@ header nav button {
 
 #contact {
     text-align: center;
-    border: 1px solid red;
     background-color:  hsl(231, 69%, 60%);
     color: white;
 }
@@ -363,7 +362,7 @@ footer nav ul {
     color: #ffffff;
     padding: 0px;
     margin-right: 268px;
-    margin-top: 29px;
+    margin-top: 31px;
 }
 
 footer nav ul li {
@@ -372,7 +371,7 @@ footer nav ul li {
     font-size: 13px;
     color: rgb(165, 165, 165);
     letter-spacing: 2px;
-    margin-left: 40px;
+    margin-left: 38px;
 }
 
 #footer-right {
