@@ -269,3 +269,22 @@ header nav button {
 #opera {
     margin-top: 90px;
 }
+
+/* FAQ */
+
+#faq-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#faq-content h1 {
+    font-size: 32px;
+    margin-bottom: 23px;
+}
+
+#faq-content p {
+    width: 45%;
+    margin: 0 auto;
+    color: rgb(165, 165, 165);
+    line-height: 28px;
+}
