@@ -14,6 +14,11 @@ let link4 = document.getElementById("fourth");
 
 link1.addEventListener("click", display);
 
+link2.addEventListener("click", display);
+
+link3.addEventListener("click", display);
+
+link4.addEventListener("click", display);
 // Function
 
 function display(e) {
