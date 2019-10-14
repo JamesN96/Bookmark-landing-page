@@ -146,10 +146,15 @@ header nav button {
 
 #tabs-img-1 {
     float: left;
-    margin-top: 77px;
+    margin-top: 67px;
     margin-left: 24px;
 }
 
+#tabs-img-1 img {
+    width: 82%;
+    height: 325px;
+    margin-left: 65px;
+}
 #tabs-content-1 {
     float: right;
     width: 40%;
@@ -165,6 +170,7 @@ header nav button {
 #tabs-content-1 p {
     width: 94%;
     line-height: 28px;
+    color: gray;
 }
 
 #tabs-content-1 button {
