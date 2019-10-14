@@ -178,3 +178,10 @@ header nav button {
     color: white;
     margin-top: 15px;
 }
+
+/* Download */
+
+#download-content {
+    text-align: center;
+    margin-top: 223px;
+}
