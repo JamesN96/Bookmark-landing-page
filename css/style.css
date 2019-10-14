@@ -360,6 +360,11 @@ footer nav img {
 
 footer nav ul li {
     display: inline;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    letter-spacing: 2px;
+    margin-left: 60px;
 }
 
 #footer-right {
