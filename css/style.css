@@ -308,6 +308,21 @@ header nav button {
     border-bottom: 1px solid rgb(165, 165, 165);
 }
 
+#faq button {
+    height: 45px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(231, 69%, 60%);
+    color: #ffffff;
+    display: block;
+    margin: 0px auto;
+    margin-top: 53px;
+    margin-bottom: 150px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 /* Contact */
 
 #contact {
