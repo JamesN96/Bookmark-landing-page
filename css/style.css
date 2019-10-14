@@ -341,13 +341,27 @@ header nav button {
 
 footer {
     background-color: hsl(229, 31%, 21%);
+    min-height: 87px;
 }
 
 footer nav ul {
+    float: left;
+    width: 60%;
     list-style: none;
     color: #ffffff;
+    padding: 0px;
+    margin: 30px 0px 20px 20px;;
+    border: 1px solid red;
+}
+
+footer nav img {
+    background: white;
 }
 
 footer nav ul li {
     display: inline;
+}
+
+#footer-right {
+    float: right;
 }
