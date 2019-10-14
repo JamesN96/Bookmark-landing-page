@@ -122,6 +122,7 @@ header nav button {
     width: 47%;
     line-height: 28px;
     margin: 0 auto;
+    color: rgb(165, 165, 165);
 }
 
 /* Features Nav */
@@ -151,7 +152,7 @@ header nav button {
 
 #tabs-img-1 {
     float: left;
-    margin-top: 67px;
+    margin-top: 72px;
     margin-left: 0px;
 }
 
@@ -163,12 +164,12 @@ header nav button {
 #tabs-content-1 {
     float: right;
     width: 40%;
-    margin-top: 105px;
+    margin-top: 110px;
     margin-right: 5px;
 }
 
 #tabs-content-1 h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 24px;
 }
 
