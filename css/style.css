@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+.grids-b {
+    border-top: 4px dotted rgb(165, 165, 165);
+}
+
 /* Header */
 
 header img {
@@ -222,7 +226,7 @@ header nav button {
     border: 1px solid red;
     display: grid;
     grid-template-columns: 290px 290px 290px;
-    grid-template-rows: 350px;
+    grid-template-rows: 360px;
     justify-content: space-around
 }
 
@@ -237,11 +241,5 @@ header nav button {
 
 #google-a p, #firefox-a p, #opera-a p {
     font-size: 13px;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
 } 
-
-#go
-
-.grids-b {
-    border-top: 4px dotted rgb(165, 165, 165);
-}
