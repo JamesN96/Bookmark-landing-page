@@ -13,6 +13,11 @@ body {
     overflow: hidden;
 }
 
+.grids {
+    border: 1px solid blue;
+    text-align: center;
+}
+
 /* Header */
 
 header img {
@@ -218,5 +223,25 @@ header nav button {
     display: grid;
     grid-template-columns: 290px 290px 290px;
     grid-template-rows: 350px;
-    
+    justify-content: space-around
+}
+
+#google-a, #firefox-a, #opera-a {
+    margin-top: 35px;
+}
+
+#google-a h2, #firefox-a h2, #opera-a h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#google-a p, #firefox-a p, #opera-a p {
+    font-size: 13px;
+    margin-bottom: 60px;
+} 
+
+#go
+
+.grids-b {
+    border-top: 4px dotted rgb(165, 165, 165);
 }
