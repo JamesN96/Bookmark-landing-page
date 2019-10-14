@@ -19,6 +19,7 @@ link2.addEventListener("click", display);
 link3.addEventListener("click", display);
 
 link4.addEventListener("click", display);
+
 // Function
 
 function display(e) {
