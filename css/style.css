@@ -141,3 +141,22 @@ header nav button {
     display: inline;
     padding-right: 82px;
 }
+
+/* Features Tabs */
+
+#tabs {
+    border: 1px solid red;
+}
+
+#tabs-img-1 {
+    float: left;
+    margin-top: 71px;
+    margin-left: 23px;
+}
+
+#tabs-content-1 {
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+    margin-top: 120px;
+}
