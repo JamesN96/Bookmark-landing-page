@@ -144,10 +144,6 @@ header nav button {
 
 /* Features Tabs */
 
-#tabs {
-    border: 1px solid red;
-}
-
 #tabs-img-1 {
     float: left;
     margin-top: 77px;
@@ -169,4 +165,16 @@ header nav button {
 #tabs-content-1 p {
     width: 94%;
     line-height: 28px;
+}
+
+#tabs-content-1 button {
+    background-color: hsl(231, 69%, 60%);
+    height: 50px;
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
 }
