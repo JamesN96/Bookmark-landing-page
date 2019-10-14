@@ -293,6 +293,13 @@ header nav button {
     line-height: 28px;
 }
 
+#list {
+    border: 1px solid red;
+    width: 46%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 /* Contact */
 
 #contact {
