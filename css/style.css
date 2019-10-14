@@ -377,3 +377,8 @@ footer nav ul li {
 #footer-right {
     float: right;
 }
+
+#footer-right img {
+    margin-top: 32px;
+    margin-right: 29px;
+}
