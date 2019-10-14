@@ -294,10 +294,18 @@ header nav button {
 }
 
 #list {
-    border: 1px solid red;
-    width: 46%;
+    width: 47%;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+#list div {
+    border-top: 1px solid rgb(165, 165, 165);
+    padding: 21px 0px;
+}
+
+#list div#last {
+    border-bottom: 1px solid rgb(165, 165, 165);
 }
 
 /* Contact */
