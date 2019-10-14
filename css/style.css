@@ -310,3 +310,16 @@ header nav button {
     width: 40%;
     margin: 35px auto;
 }
+
+#contact input {
+    height: 45px;
+    width: 295px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact input::-webkit-input-placeholder {
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(208, 208, 208);
+}
