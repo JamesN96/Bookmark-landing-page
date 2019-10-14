@@ -323,6 +323,22 @@ header nav button {
     font-weight: bold;
 }
 
+#arrow-1 {
+    margin-left: 323px;
+}
+
+#arrow-2 {
+    margin-left: 210px;
+}
+
+#arrow-3 {
+    margin-left: 313px;
+}
+
+#arrow-4 {
+    margin-left: 170px;
+}
+
 /* Contact */
 
 #contact {
