@@ -27,6 +27,7 @@ body {
 
 .content {
     display: none;
+    word-break:break-all;
 }
 
 /* Header */
