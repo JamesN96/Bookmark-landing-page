@@ -16,6 +16,7 @@ body {
 .grids {
     border: 1px solid blue;
     text-align: center;
+    height: 360px;
 }
 
 .grids-b {
@@ -226,8 +227,12 @@ header nav button {
     border: 1px solid red;
     display: grid;
     grid-template-columns: 290px 290px 290px;
-    grid-template-rows: 360px;
-    justify-content: space-around
+    grid-template-rows: 560px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 85%;
+    min-height: 500px;
 }
 
 #google-a, #firefox-a, #opera-a {
@@ -254,4 +259,12 @@ header nav button {
     border-radius: 5px;
     color: white;
     font-size: 14px;
+}
+
+#firefox {
+    margin-top: 45px;
+}
+
+#opera {
+    margin-top: 90px;
 }
