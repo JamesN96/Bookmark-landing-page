@@ -312,6 +312,13 @@ header nav button:hover {
     font-size: 14px;
 }
 
+.grids-b button:hover {
+    background: white;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+    font-weight: bold;
+}
+
 #firefox {
     margin-top: 45px;
 }
