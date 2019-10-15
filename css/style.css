@@ -369,10 +369,15 @@ header nav button:hover {
     background-color: hsl(231, 69%, 60%);
     color: #ffffff;
     display: block;
-    margin: 0px auto;
-    margin-top: 53px;
-    margin-bottom: 150px;
+    margin: 53px auto 150px;
     font-size: 14px;
+    font-weight: bold;
+}
+
+#faq button:hover {
+    background: white;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
     font-weight: bold;
 }
 
