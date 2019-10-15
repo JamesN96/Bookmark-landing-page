@@ -22,7 +22,8 @@ body {
 }
 
 .grids-b {
-    border-top: 4px dotted rgb(165, 165, 165);
+    border-top: 5px solid transparent;
+    border-image: url(/images/bg-dots.svg) 10 round;
 }
 
 .content {
