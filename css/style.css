@@ -136,10 +136,23 @@ header nav button:hover {
     border: none;
 }
 
+#intro-content #btn-1:hover {
+    background: white;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+    font-weight: bold;
+}
+
 #intro-content #btn-2 {
     box-shadow: 2px 1px 8px 1px rgb(191, 191, 191);
     margin-left: 10px;
     background-color: rgba(249, 249, 249, 0.938);
+}
+
+#intro-content #btn-2:hover {
+    background: white;
+    border: 2px solid hsl(0, 0%, 28%);
+    font-weight: bold;
 }
 
 #intro #intro-img {
