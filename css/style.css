@@ -28,6 +28,11 @@ body {
 .content {
     display: none;
     word-break:break-all;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 36px;
+    color: rgb(165, 165, 165);
+    width: 95%;
 }
 
 /* Header */
