@@ -84,6 +84,13 @@ header nav button {
     letter-spacing: 1.5px;
 }
 
+header nav button:hover {
+    background: white;
+    border: 2px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+    font-weight: bold;
+}
+
 /* Intro */
 #intro {
     margin-bottom: 90px;
