@@ -309,6 +309,10 @@ header nav button {
     border-bottom: 1px solid rgb(165, 165, 165);
 }
 
+#list a:hover {
+    color: hsl(0, 94%, 66%);
+}
+
 #faq button {
     height: 45px;
     width: 110px;
