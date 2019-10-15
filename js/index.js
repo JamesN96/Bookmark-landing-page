@@ -25,6 +25,7 @@ link4.addEventListener("click", display);
 function display(e) {
     if(e.target.nextElementSibling.style.display == "") {
         e.target.nextElementSibling.style.display = "block";
+        e.target.nextElementSibling.style.borderTop = "none";
     } else {
         e.target.nextElementSibling.style.display = "";
     }
