@@ -529,6 +529,12 @@ footer div#footer-left nav ul li a:hover {
         width: 85%;
     }
 
+    /* Remove Float */
+
+    #intro #intro-content, #intro #intro-img {
+        float: none;
+    }
+
     /* Header */
 
     header img {
@@ -538,5 +544,20 @@ footer div#footer-left nav ul li a:hover {
 
     header nav ul {
         display: none;
+    }
+
+    /* Intro section */
+
+    #intro .container {
+        width: 95%;
+    }
+
+    #intro div#intro-img {
+        width: 100%;    
+    }
+
+    #intro-img img{
+        width: 96%;
+        margin: 0 auto;
     }
 }
