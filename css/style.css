@@ -561,4 +561,24 @@ footer div#footer-left nav ul li a:hover {
         width: 98%;
         margin: 0 auto;
     }
+
+    #intro #intro-content {
+        width: 99%;
+        margin: 70px auto 0px; 
+    }
+
+    #intro-content h1 {
+        text-align: center;
+        font-size: 39px;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    #intro-content p {
+        text-align: center;
+        margin: 22px auto 0px;
+        font-size: 20px;
+        width: 80%;
+        line-height: 34px;
+    }
 }
