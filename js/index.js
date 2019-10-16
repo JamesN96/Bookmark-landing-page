@@ -1,14 +1,15 @@
 // DOM CACHE
 
 let link1 = document.getElementById("first");
-
 let link2 = document.getElementById("second");
-
-
 let link3 = document.getElementById("third");
-
-
 let link4 = document.getElementById("fourth");
+let feat1 = document.getElementById("feat-1");
+let feat2 = document.getElementById("feat-2");
+let feat3 = document.getElementById("feat-3");
+
+
+
 
 // Add event listener
 
