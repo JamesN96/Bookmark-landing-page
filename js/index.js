@@ -7,6 +7,10 @@ let link4 = document.getElementById("fourth");
 let feat1 = document.getElementById("feat-1");
 let feat2 = document.getElementById("feat-2");
 let feat3 = document.getElementById("feat-3");
+let img1 = document.getElementById("img-1");
+let h1 = document.getElementById("first-h1");
+let p1 = document.getElementById("first-p");
+
 
 // Add event listener
 
@@ -41,9 +45,18 @@ function active(e) {
         feat2.parentElement.classList.add("active");
         feat1.parentElement.className = "";
         feat3.parentElement.className = "";
+        changeTab();
     } else if(e.target.id == "feat-3") {
         feat3.parentElement.classList.add("active");
         feat1.parentElement.className = "";
         feat2.parentElement.className = "";
     }
+}
+
+// Change Tab function
+
+function changeTab(e) {
+    img1.src = "/images/illustration-features-tab-2.svg";
+    h1.textContent = "Intelligent Search";
+    p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
