@@ -538,8 +538,8 @@ footer div#footer-left nav ul li a:hover {
     /* Header */
 
     header img {
-        margin-left: 0px;
-        width: 190px;
+        margin-left: 5px;
+        width: 195px;
     }
 
     header nav ul {
@@ -553,11 +553,12 @@ footer div#footer-left nav ul li a:hover {
     }
 
     #intro div#intro-img {
-        width: 100%;    
+        width: 100%;  
+        margin-top: 92px;  
     }
 
     #intro-img img{
-        width: 96%;
+        width: 98%;
         margin: 0 auto;
     }
 }
