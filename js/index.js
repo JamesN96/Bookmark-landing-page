@@ -29,3 +29,21 @@ function display(e) {
         e.target.nextElementSibling.style.display = "";
     }
 }
+
+// Active function
+
+function active(e) {
+    if(e.target.id == "feat-1") {
+        feat1.classList.add("active");
+        feat2.className = "";
+        feat3.className = "";
+    } else if(e.target.id == "feat-2") {
+        feat2.classList.add("active");
+        feat1.className = "";
+        feat3.className = "";
+    } else if(e.target.id == "feat-3") {
+        feat3.classList.add("active");
+        feat1.className = "";
+        feat2.className = "";
+    }
+}
