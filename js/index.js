@@ -51,6 +51,7 @@ function active(e) {
         feat3.parentElement.classList.add("active");
         feat1.parentElement.className = "";
         feat2.parentElement.className = "";
+        changeTab3();
     }
 }
 
@@ -69,3 +70,8 @@ function changeTab2(e) {
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
 
+function changeTab3(e) {
+    img1.src = "/images/illustration-features-tab-3.svg";
+    h1.textContent = "Share your bookmarks";
+    p1.textContent = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
+}
