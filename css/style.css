@@ -595,4 +595,17 @@ footer div#footer-left nav ul li a:hover {
        height: 60px;
        font-size: 16px;
     }
+
+    /* Features */
+
+    #features #content {
+        text-align: center;
+    }
+
+    #features #content p { 
+        border: 1px solid red;
+        width: 90%;
+        line-height: 32px;
+        font-size: 19px;
+    }
 }
