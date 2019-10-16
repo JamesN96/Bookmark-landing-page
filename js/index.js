@@ -80,6 +80,9 @@ function changeTab2(e) {
 
 function changeTab3(e) {
     img1.src = "/images/illustration-features-tab-3.svg";
+    img1.style.height = "385px";
+    img1.style.width = "440px";
+    img1.style.marginLeft = "105px";
     h1.textContent = "Share your bookmarks";
     p1.textContent = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
 }
