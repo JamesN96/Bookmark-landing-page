@@ -433,8 +433,13 @@ header nav button:hover {
     margin-bottom: 75px;
 }
 
-#contact input::-webkit-input-placeholder {
+#contact input[type="email"] {
     padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#contact input::-webkit-input-placeholder {
     font-size: 14px;
     color: rgb(208, 208, 208);
 }
