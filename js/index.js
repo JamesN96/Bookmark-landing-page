@@ -1,12 +1,17 @@
 // DOM CACHE
 
+// Faq list div
 let link1 = document.getElementById("first");
 let link2 = document.getElementById("second");
 let link3 = document.getElementById("third");
 let link4 = document.getElementById("fourth");
+
+// Features nav li elements
 let feat1 = document.getElementById("feat-1");
 let feat2 = document.getElementById("feat-2");
 let feat3 = document.getElementById("feat-3");
+
+// Features tab
 let img1 = document.getElementById("img-1");
 let h1 = document.getElementById("first-h1");
 let p1 = document.getElementById("first-p");
