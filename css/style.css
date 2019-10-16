@@ -581,4 +581,18 @@ footer div#footer-left nav ul li a:hover {
         width: 80%;
         line-height: 34px;
     }
+
+    #intro-content #button {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #intro-content button#btn-1,
+    #intro-content button#btn-2 {
+       display: inline-block;
+       margin: 0;
+       width: 43%;
+       height: 60px;
+       font-size: 16px;
+    }
 }
