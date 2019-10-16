@@ -65,6 +65,9 @@ function active(e) {
 
 function changeTab(e) {
     img1.src = "/images/illustration-features-tab-1.svg";
+    img1.style.height = "350px";
+    img1.style.width = "540px";
+    img1.style.marginLeft = "20px";
     h1.textContent = "Bookmark in one click";
     p1.textContent = "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
 }
@@ -73,7 +76,7 @@ function changeTab2(e) {
     img1.src = "/images/illustration-features-tab-2.svg";
     img1.style.height = "415px";
     img1.style.width = "480px";
-    img1.style.marginLeft = "90px";
+    img1.style.marginLeft = "100px";
     h1.textContent = "Intelligent Search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
@@ -82,7 +85,7 @@ function changeTab3(e) {
     img1.src = "/images/illustration-features-tab-3.svg";
     img1.style.height = "385px";
     img1.style.width = "440px";
-    img1.style.marginLeft = "105px";
+    img1.style.marginLeft = "100px";
     h1.textContent = "Share your bookmarks";
     p1.textContent = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
 }
