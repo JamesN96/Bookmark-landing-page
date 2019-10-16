@@ -428,7 +428,7 @@ header nav button:hover {
 #contact input {
     height: 45px;
     width: 295px;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     margin-bottom: 75px;
 }
@@ -443,6 +443,10 @@ header nav button:hover {
     font-size: 14px;
     color: rgb(208, 208, 208);
 }
+
+input:invalid {
+    border: 3px solid hsl(0, 94%, 66%);
+  }
 
 #contact button {
     height: 47px;
