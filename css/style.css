@@ -653,4 +653,17 @@ footer div#footer-left nav ul li a:hover {
     grid-template-columns: 290px;
     grid-template-rows: 360px 360px;
     }
+
+    /* FAQ */ 
+
+    #faq {
+        border: 1px solid red;
+        margin-top: 40px;
+    }
+
+    #faq #faq-content p {
+        width: 95%;
+        font-size: 20px;
+        line-height: 34px;
+    }
 }
