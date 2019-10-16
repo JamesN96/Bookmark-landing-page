@@ -636,4 +636,21 @@ footer div#footer-left nav ul li a:hover {
         line-height: 34px;
 
     }
+
+    /* Download */
+
+    #download #download-content {
+        text-align: center;
+    }
+
+    #download-content p {
+        width: 90%;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    #download #grid {
+    grid-template-columns: 290px;
+    grid-template-rows: 360px 360px;
+    }
 }
