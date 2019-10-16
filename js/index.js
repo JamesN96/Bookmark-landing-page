@@ -8,20 +8,18 @@ let feat1 = document.getElementById("feat-1");
 let feat2 = document.getElementById("feat-2");
 let feat3 = document.getElementById("feat-3");
 
-
-
-
 // Add event listener
 
 link1.addEventListener("click", display);
-
 link2.addEventListener("click", display);
-
 link3.addEventListener("click", display);
-
 link4.addEventListener("click", display);
+feat1.addEventListener("click", active);
+feat2.addEventListener("click", active);
+feat3.addEventListener("click", active);
 
-// Function
+
+// Display Function
 
 function display(e) {
     if(e.target.nextElementSibling.style.display == "") {
@@ -31,4 +29,3 @@ function display(e) {
         e.target.nextElementSibling.style.display = "";
     }
 }
-
