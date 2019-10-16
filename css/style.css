@@ -520,3 +520,23 @@ footer div#footer-left nav ul li a:hover {
     margin-top: 32px;
     margin-right: 29px;
 }
+
+/* Media Queries */
+
+@media(max-width: 500px) {
+
+    .container {
+        width: 85%;
+    }
+
+    /* Header */
+
+    header img {
+        margin-left: 0px;
+        width: 190px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+}
