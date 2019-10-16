@@ -41,11 +41,12 @@ function active(e) {
         feat1.parentElement.classList.add("active");
         feat2.parentElement.className = "";
         feat3.parentElement.className = "";
+        changeTab();
     } else if(e.target.id == "feat-2") {
         feat2.parentElement.classList.add("active");
         feat1.parentElement.className = "";
         feat3.parentElement.className = "";
-        changeTab();
+        changeTab2();
     } else if(e.target.id == "feat-3") {
         feat3.parentElement.classList.add("active");
         feat1.parentElement.className = "";
@@ -55,8 +56,16 @@ function active(e) {
 
 // Change Tab function
 
+
 function changeTab(e) {
+    img1.src = "/images/illustration-features-tab-1.svg";
+    h1.textContent = "Bookmark in one click";
+    p1.textContent = "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
+}
+
+function changeTab2(e) {
     img1.src = "/images/illustration-features-tab-2.svg";
     h1.textContent = "Intelligent Search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
+
