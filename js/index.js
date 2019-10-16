@@ -34,16 +34,16 @@ function display(e) {
 
 function active(e) {
     if(e.target.id == "feat-1") {
-        feat1.classList.add("active");
-        feat2.className = "";
-        feat3.className = "";
+        feat1.parentElement.classList.add("active");
+        feat2.parentElement.className = "";
+        feat3.parentElement.className = "";
     } else if(e.target.id == "feat-2") {
-        feat2.classList.add("active");
-        feat1.className = "";
-        feat3.className = "";
+        feat2.parentElement.classList.add("active");
+        feat1.parentElement.className = "";
+        feat3.parentElement.className = "";
     } else if(e.target.id == "feat-3") {
-        feat3.classList.add("active");
-        feat1.className = "";
-        feat2.className = "";
+        feat3.parentElement.classList.add("active");
+        feat1.parentElement.className = "";
+        feat2.parentElement.className = "";
     }
 }
