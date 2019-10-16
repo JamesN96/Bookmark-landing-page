@@ -71,6 +71,9 @@ function changeTab(e) {
 
 function changeTab2(e) {
     img1.src = "/images/illustration-features-tab-2.svg";
+    img1.style.height = "415px";
+    img1.style.width = "480px";
+    img1.style.marginLeft = "90px";
     h1.textContent = "Intelligent Search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
