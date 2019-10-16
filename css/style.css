@@ -666,4 +666,13 @@ footer div#footer-left nav ul li a:hover {
         font-size: 20px;
         line-height: 34px;
     }
+
+    #faq #list {
+        width: 100%;
+    }
+
+    #list div {
+        border-top: none;
+        border-bottom: 1px solid rgb(165, 165, 165);
+    }
 }
