@@ -1,21 +1,24 @@
+// Global Variable
+
+const media = window.matchMedia("(max-width: 500px)");
+
 // DOM CACHE
 
-// Faq list div
+    // Faq list div
 let link1 = document.getElementById("first");
 let link2 = document.getElementById("second");
 let link3 = document.getElementById("third");
 let link4 = document.getElementById("fourth");
 
-// Features nav li elements
+    // Features nav li elements
 let feat1 = document.getElementById("feat-1");
 let feat2 = document.getElementById("feat-2");
 let feat3 = document.getElementById("feat-3");
 
-// Features tab
+    // Features tab
 let img1 = document.getElementById("img-1");
 let h1 = document.getElementById("first-h1");
 let p1 = document.getElementById("first-p");
-
 
 // Add event listener
 
@@ -26,8 +29,6 @@ link4.addEventListener("click", display);
 feat1.addEventListener("click", active);
 feat2.addEventListener("click", active);
 feat3.addEventListener("click", active);
-
-const media = window.matchMedia("(max-width: 500px)");
 
 // Display Function
 
@@ -69,6 +70,11 @@ function changeTab(e) {
     img1.style.height = "350px";
     img1.style.width = "540px";
     img1.style.marginLeft = "20px";
+    if(media.matches) {
+        img1.style.height = "270px";
+        img1.style.width = "410px";
+        img1.style.marginLeft = "0px";
+    }
     h1.textContent = "Bookmark in one click";
     p1.textContent = "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
 }
@@ -78,6 +84,11 @@ function changeTab2(e) {
     img1.style.height = "415px";
     img1.style.width = "480px";
     img1.style.marginLeft = "100px";
+    if(media.matches) {
+        img1.style.height = "335px";
+        img1.style.width = "400px";
+        img1.style.marginLeft = "20px";
+    }
     h1.textContent = "Intelligent Search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
