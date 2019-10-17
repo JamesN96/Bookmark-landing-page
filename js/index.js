@@ -27,6 +27,7 @@ feat1.addEventListener("click", active);
 feat2.addEventListener("click", active);
 feat3.addEventListener("click", active);
 
+const media = window.matchMedia("(max-width: 500px)");
 
 // Display Function
 
@@ -86,6 +87,11 @@ function changeTab3(e) {
     img1.style.height = "385px";
     img1.style.width = "440px";
     img1.style.marginLeft = "100px";
+    if(media.matches) {
+        img1.style.height = "335px";
+        img1.style.width = "400px";
+        img1.style.marginLeft = "15px";
+    }
     h1.textContent = "Share your bookmarks";
     p1.textContent = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
 }
