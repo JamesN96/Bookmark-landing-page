@@ -657,8 +657,7 @@ footer div#footer-left nav ul li a:hover {
     /* FAQ */ 
 
     #faq {
-        border: 1px solid red;
-        margin-top: 40px;
+        margin-top: 150px;
     }
 
     #faq #faq-content p {
