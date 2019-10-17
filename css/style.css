@@ -550,7 +550,11 @@ footer div#footer-left nav ul li a:hover {
     }
 
     header nav ul {
-        display: none;
+        /* display: none; */
+    }
+
+    header nav ul li {
+        display: block;
     }
 
     header .collapse {
@@ -564,7 +568,6 @@ footer div#footer-left nav ul li a:hover {
     header .collapse img {
         width: 31%;
     }
-    
     
     /* Intro section */
 
