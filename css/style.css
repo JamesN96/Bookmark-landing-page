@@ -727,11 +727,11 @@ footer div#footer-left nav ul li a:hover {
     /* Footer */
 
     footer {
-        padding: 55px 0px;
+        padding: 35px 0px;
     }
 
     #footer-left {
-        margin: 0 auto;
+        margin: 30px auto 0px;;
         display: block;
         width: 90%;
         text-align: center;
