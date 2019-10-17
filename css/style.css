@@ -585,6 +585,7 @@ footer div#footer-left nav ul li a:hover {
     #intro-content #button {
         text-align: center;
         margin-top: 40px;
+        padding-bottom: 10px;
     }
 
     #intro-content button#btn-1,
