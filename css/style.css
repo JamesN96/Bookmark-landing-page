@@ -692,3 +692,21 @@ footer div#footer-left nav ul li a:hover {
         margin-left: 70px;
     }
 }
+
+@media(max-width: 375px) {
+    #arrow-1 {
+        margin-left: 120px;
+    }
+    
+    #arrow-2 {
+        margin-left: 8px;
+    }
+    
+    #arrow-3 {
+        margin-left: 110px;
+    }
+    
+    #arrow-4 {
+        margin-left: 0px;
+    }
+}
