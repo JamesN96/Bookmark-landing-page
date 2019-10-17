@@ -74,7 +74,11 @@ function changeTab(e) {
         img1.style.height = "270px";
         img1.style.width = "410px";
         img1.style.marginLeft = "0px";
-    }
+    }else {
+        img1.style.height = "220px";
+        img1.style.width = "310px";
+        img1.style.marginLeft = "0px";
+    };
     h1.textContent = "Bookmark in one click";
     p1.textContent = "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
 }
@@ -88,7 +92,11 @@ function changeTab2(e) {
         img1.style.height = "335px";
         img1.style.width = "400px";
         img1.style.marginLeft = "20px";
-    }
+    }else {
+        img1.style.width = "310px";
+        img1.style.height = "270px";
+        img1.style.marginLeft = "5px";
+    };
     h1.textContent = "Intelligent Search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
