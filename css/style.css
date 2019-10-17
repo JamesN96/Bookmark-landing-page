@@ -694,19 +694,24 @@ footer div#footer-left nav ul li a:hover {
 }
 
 @media(max-width: 375px) {
+
+    #list a {
+        font-size: 16px;
+    }
+
     #arrow-1 {
-        margin-left: 120px;
+        margin-left: 141px;
     }
     
     #arrow-2 {
-        margin-left: 8px;
+        margin-left: 41px;
     }
     
     #arrow-3 {
-        margin-left: 110px;
+        margin-left: 133px;
     }
     
     #arrow-4 {
-        margin-left: 0px;
+        margin-left: 5px;
     }
 }
