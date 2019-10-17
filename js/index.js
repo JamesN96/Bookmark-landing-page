@@ -3,6 +3,10 @@
 const media = window.matchMedia("(min-width: 500px)");
 
 // DOM CACHE
+    // Header
+
+let toggle = document.getElementById("toggle");
+let ul = document.getElementById("header-ul");
 
     // Faq list div
 let link1 = document.getElementById("first");
@@ -22,6 +26,7 @@ let p1 = document.getElementById("first-p");
 
 // Add event listener
 
+toggle.addEventListener("click", toggleCollapse)
 link1.addEventListener("click", display);
 link2.addEventListener("click", display);
 link3.addEventListener("click", display);
@@ -29,6 +34,16 @@ link4.addEventListener("click", display);
 feat1.addEventListener("click", active);
 feat2.addEventListener("click", active);
 feat3.addEventListener("click", active);
+
+// toggleCollapse function
+
+function toggleCollapse(e) {
+    if(ul.style.display == "none"){
+        ul.style.display = "block";
+    } else {
+    ul.style.display = "none";
+    }
+}
 
 // Display Function
 
