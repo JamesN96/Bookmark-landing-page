@@ -652,12 +652,13 @@ footer div#footer-left nav ul li a:hover {
     #download #grid {
     grid-template-columns: 290px;
     grid-template-rows: 360px 360px;
+    padding-bottom: 10px;
     }
 
     /* FAQ */ 
 
     #faq {
-        margin-top: 150px;
+        margin-top: 145px;
     }
 
     #faq #faq-content p {
