@@ -52,9 +52,15 @@ a:hover {
     border-bottom: 3px solid hsl(0, 94%, 66%);
 }
 
+.collapse {
+   text-align: right;
+   box-sizing: border-box;
+   display: none;
+}
+
 /* Header */
 
-header img {
+header #head-logo {
     margin-top: 55px;
     margin-left: 24px;
 }
@@ -537,15 +543,29 @@ footer div#footer-left nav ul li a:hover {
 
     /* Header */
 
-    header img {
+    header #head-logo {
         margin-left: 5px;
         width: 195px;
+        float: left;
     }
 
     header nav ul {
         display: none;
     }
 
+    header .collapse {
+        display: block;
+        width: 20%;
+        float: right;
+        margin-top: 57px;
+        margin-right: 8px;
+    }
+
+    header .collapse img {
+        width: 31%;
+    }
+    
+    
     /* Intro section */
 
     #intro .container {
