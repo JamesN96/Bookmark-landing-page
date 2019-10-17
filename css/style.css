@@ -707,6 +707,18 @@ footer div#footer-left nav ul li a:hover {
     #contact h1 {
         width: 100%;
     }
+
+    #contact input[type="email"], #contact button {
+        width: 95%;
+        height: 60px;
+        margin: 0 0 20px 0;
+        font-size: 18px;
+    }
+
+    #contact input::-webkit-input-placeholder {
+        font-size: 18px;
+        padding-left: 10px;
+    }
 }
 
 @media(max-width: 375px) {
