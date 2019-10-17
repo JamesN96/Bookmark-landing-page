@@ -1,6 +1,6 @@
 // Global Variable
 
-const media = window.matchMedia("(max-width: 500px)");
+const media = window.matchMedia("(min-width: 500px)");
 
 // DOM CACHE
 
@@ -102,7 +102,11 @@ function changeTab3(e) {
         img1.style.height = "335px";
         img1.style.width = "400px";
         img1.style.marginLeft = "15px";
-    }
+    }else {
+        img1.style.width = "310px";
+        img1.style.height = "250px";
+        img1.style.marginLeft = "5px";
+    };
     h1.textContent = "Share your bookmarks";
     p1.textContent = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
 }
