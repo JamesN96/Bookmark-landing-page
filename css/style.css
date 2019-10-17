@@ -726,29 +726,40 @@ footer div#footer-left nav ul li a:hover {
 
     /* Footer */
     footer {
-        padding: 50px 0px;
+        padding: 55px 0px;
     }
 
     #footer-left {
-        border: 1px solid red;
         margin: 0 auto;
         display: block;
         width: 90%;
+        text-align: center;
     }
 
-    footer nav {
-        text-align: center;
-        border: 1px solid orange;
+    #footer-logo { 
         width: 50%;
         margin: 0 auto;
     }
 
+    #footer-logo img {
+        width: 100%;
+    }
+
+    footer nav {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    footer nav ul {
+        margin: 40px auto 0px;
+    }
+
     footer nav ul li {
-        width: 60%;
+        width: 90%;
         display: block;
         font-size: 20px;
-        padding-bottom: 30px;
-        border: 1px solid green;
+        padding-bottom: 40px;
+        margin: 0 auto;
     }
     
 }
