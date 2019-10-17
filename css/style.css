@@ -700,6 +700,10 @@ footer div#footer-left nav ul li a:hover {
 
     /* Contact */
 
+    #contact {
+        padding-bottom: 55px;
+    }
+
     #contact h4 {
         font-size: 17px;
     }
