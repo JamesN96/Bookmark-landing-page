@@ -691,6 +691,12 @@ footer div#footer-left nav ul li a:hover {
     #arrow-4 {
         margin-left: 70px;
     }
+
+    #faq button {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+    }
 }
 
 @media(max-width: 375px) {
