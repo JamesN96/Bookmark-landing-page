@@ -697,6 +697,16 @@ footer div#footer-left nav ul li a:hover {
         height: 60px;
         font-size: 18px;
     }
+
+    /* Contact */
+
+    #contact h4 {
+        font-size: 17px;
+    }
+
+    #contact h1 {
+        width: 100%;
+    }
 }
 
 @media(max-width: 375px) {
