@@ -675,4 +675,20 @@ footer div#footer-left nav ul li a:hover {
         border-top: none;
         border-bottom: 1px solid rgb(165, 165, 165);
     }
+
+    #arrow-1 {
+        margin-left: 223px;
+    }
+    
+    #arrow-2 {
+        margin-left: 110px;
+    }
+    
+    #arrow-3 {
+        margin-left: 213px;
+    }
+    
+    #arrow-4 {
+        margin-left: 70px;
+    }
 }
