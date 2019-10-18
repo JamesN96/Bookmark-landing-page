@@ -138,7 +138,7 @@ function changeTab2(e) {
         img1.style.height = "270px";
         img1.style.marginLeft = "5px";
     };
-    h1.textContent = "Intelligent Search";
+    h1.textContent = "Intelligent search";
     p1.textContent = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 }
 
