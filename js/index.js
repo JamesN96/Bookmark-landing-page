@@ -8,6 +8,7 @@ const media = window.matchMedia("(min-width: 500px)");
 let toggle = document.getElementById("toggle");
 let ul = document.getElementById("header-ul");
 let header = document.querySelector("header");
+let headerIcon = document.querySelector("#header-icons");
 
     // Faq list div
 let link1 = document.getElementById("first");
@@ -48,6 +49,7 @@ function toggleCollapse(e) {
             header.style.position = "absolute";
             ul.style.display = "block";
             toggle.src = "/images/icon-close.svg";
+            headerIcon.style.display = "block";
         } else {
             header.style.background = "hsl(229, 31%, 21%)";
             header.style.height = "140vh";
@@ -56,6 +58,7 @@ function toggleCollapse(e) {
             header.style.position = "absolute";
             ul.style.display = "block";
             toggle.src = "/images/icon-close.svg";
+            headerIcon.style.display = "block";
         }
     } else {
         ul.style.display = "";
