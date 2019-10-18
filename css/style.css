@@ -591,11 +591,15 @@ footer div#footer-left nav ul li a:hover {
     }
 
     #header-icons {
-        border: 1px solid red;
         position: absolute;
         top: 680px;
-        width: 85%;
+        width: 74%;
         text-align: center;
+    }
+    
+    #header-icons img {
+        padding-left: 50px;
+        width: 30px;
     }
     
     /* Intro section */
