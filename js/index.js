@@ -49,7 +49,7 @@ function toggleCollapse(e) {
             header.style.opacity = "0.85";
             header.style.position = "absolute";
             ul.style.display = "block";
-            toggle.src = "/images/icon-close.svg";
+            toggle.src = "images/icon-close.svg";
             headerIcon.style.display = "block";
         } else {
             header.style.background = "hsl(229, 31%, 21%)";
@@ -58,13 +58,13 @@ function toggleCollapse(e) {
             header.style.opacity = "0.85";
             header.style.position = "absolute";
             ul.style.display = "block";
-            toggle.src = "/images/icon-close.svg";
+            toggle.src = "images/icon-close.svg";
             headerIcon.style.display = "block";
         }
     } else {
         ul.style.display = "";
         header.removeAttribute("style");
-        toggle.src = "/images/icon-hamburger.svg";
+        toggle.src = "images/icon-hamburger.svg";
         headerIcon.style.display = "";
     }
 }
@@ -106,7 +106,7 @@ function currentTab(e) {
 
 function changeTab(e) {
     if(mediaLg.matches) {
-        img1.src = "/images/illustration-features-tab-1.svg";
+        img1.src = "images/illustration-features-tab-1.svg";
         img1.style.height = "350px";
         img1.style.width = "540px";
         img1.style.marginLeft = "25px";
@@ -125,7 +125,7 @@ function changeTab(e) {
 
 function changeTab2(e) {
     if(mediaLg.matches) {
-        img1.src = "/images/illustration-features-tab-2.svg";
+        img1.src = "images/illustration-features-tab-2.svg";
         img1.style.height = "415px";
         img1.style.width = "480px";
         img1.style.marginLeft = "100px";
@@ -144,7 +144,7 @@ function changeTab2(e) {
 
 function changeTab3(e) {
     if(mediaLg.matches) {
-        img1.src = "/images/illustration-features-tab-3.svg";
+        img1.src = "images/illustration-features-tab-3.svg";
         img1.style.height = "385px";
         img1.style.width = "440px";
         img1.style.marginLeft = "100px";
