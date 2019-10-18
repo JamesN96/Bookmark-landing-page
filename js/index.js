@@ -40,13 +40,23 @@ feat3.addEventListener("click", active);
 
 function toggleCollapse(e) {
     if(ul.style.display == ""){
-        header.style.background = "hsl(229, 31%, 21%)";
-        header.style.height = "100vh";
-        header.style.width = "100vw";
-        header.style.opacity = "0.85";
-        header.style.position = "absolute";
-        ul.style.display = "block";
-        toggle.src = "/images/icon-close.svg";
+        if(media.matches) {
+            header.style.background = "hsl(229, 31%, 21%)";
+            header.style.height = "100vh";
+            header.style.width = "100vw";
+            header.style.opacity = "0.85";
+            header.style.position = "absolute";
+            ul.style.display = "block";
+            toggle.src = "/images/icon-close.svg";
+        } else {
+            header.style.background = "hsl(229, 31%, 21%)";
+            header.style.height = "140vh";
+            header.style.width = "100vw";
+            header.style.opacity = "0.85";
+            header.style.position = "absolute";
+            ul.style.display = "block";
+            toggle.src = "/images/icon-close.svg";
+        }
     } else {
         ul.style.display = "";
         header.removeAttribute("style");
