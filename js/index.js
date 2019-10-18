@@ -33,9 +33,9 @@ link1.addEventListener("click", display);
 link2.addEventListener("click", display);
 link3.addEventListener("click", display);
 link4.addEventListener("click", display);
-feat1.addEventListener("click", active);
-feat2.addEventListener("click", active);
-feat3.addEventListener("click", active);
+feat1.addEventListener("click", currentTab);
+feat2.addEventListener("click", currentTab);
+feat3.addEventListener("click", currentTab);
 
 // toggleCollapse function
 
@@ -81,7 +81,7 @@ function display(e) {
 
 // Active function
 
-function active(e) {
+function currentTab(e) {
     if(e.target.id == "feat-1") {
         feat1.parentElement.classList.add("active");
         feat2.parentElement.className = "";
