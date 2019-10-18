@@ -46,9 +46,11 @@ function toggleCollapse(e) {
         header.style.opacity = "0.85";
         header.style.position = "absolute";
         ul.style.display = "block";
+        toggle.src = "/images/icon-close.svg";
     } else {
         ul.style.display = "";
         header.removeAttribute("style");
+        toggle.src = "/images/icon-hamburger.svg";
     }
 }
 
