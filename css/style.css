@@ -600,8 +600,9 @@ footer div#footer-left nav ul li a:hover {
     #header-icons img {
         padding-left: 50px;
         width: 30px;
+        display: none;
     }
-    
+
     /* Intro section */
 
     #intro .container {
@@ -843,6 +844,7 @@ footer div#footer-left nav ul li a:hover {
 }
 
 @media(max-width: 375px) {
+    /* FAQ */
 
     #list a {
         font-size: 16px;
