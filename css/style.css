@@ -543,14 +543,6 @@ footer div#footer-left nav ul li a:hover {
 
     /* Header */
 
-    header {
-        background: hsl(229, 31%, 21%);
-        height: 100vh;
-        width: 100vw;
-        opacity: 0.85;
-        position: absolute;
-    }
-
     header #head-logo {
         margin-left: 5px;
         width: 195px;
@@ -559,7 +551,7 @@ footer div#footer-left nav ul li a:hover {
     }
 
     header nav ul {
-        /* display: none; */
+        display: none;
         width: 90%;
         text-align: center;
         margin-top: 45px;
