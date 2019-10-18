@@ -124,11 +124,12 @@ function changeTab(e) {
 }
 
 function changeTab2(e) {
-    img1.src = "/images/illustration-features-tab-2.svg";
-    img1.style.height = "415px";
-    img1.style.width = "480px";
-    img1.style.marginLeft = "100px";
-    if(media.matches) {
+    if(mediaLg.matches) {
+        img1.src = "/images/illustration-features-tab-2.svg";
+        img1.style.height = "415px";
+        img1.style.width = "480px";
+        img1.style.marginLeft = "100px";
+    } else if(media.matches) {
         img1.style.height = "335px";
         img1.style.width = "400px";
         img1.style.marginLeft = "20px";
@@ -142,11 +143,12 @@ function changeTab2(e) {
 }
 
 function changeTab3(e) {
-    img1.src = "/images/illustration-features-tab-3.svg";
-    img1.style.height = "385px";
-    img1.style.width = "440px";
-    img1.style.marginLeft = "100px";
-    if(media.matches) {
+    if(mediaLg.matches) {
+        img1.src = "/images/illustration-features-tab-3.svg";
+        img1.style.height = "385px";
+        img1.style.width = "440px";
+        img1.style.marginLeft = "100px";
+    } else if(media.matches) {
         img1.style.height = "335px";
         img1.style.width = "400px";
         img1.style.marginLeft = "15px";
