@@ -560,16 +560,16 @@ footer div#footer-left nav ul li a:hover {
 
     header nav ul {
         /* display: none; */
-        border: 1px solid red;
-        width: 100%;
+        width: 90%;
         text-align: center;
-
+        margin-top: 45px;
     }
 
     header nav ul li {
         display: block;
-        border: 1px solid orange;
-
+        border-top: 1px solid rgb(165, 165, 165);
+        padding: 30px 0px;
+        font-size: 24px;
     }
 
     header .collapse {
