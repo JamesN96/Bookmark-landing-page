@@ -1,5 +1,6 @@
 // Global Variable
 
+const mediaLg = window.matchMedia("(max-width: 1440px)");
 const media = window.matchMedia("(min-width: 500px)");
 
 // DOM CACHE
@@ -104,11 +105,12 @@ function currentTab(e) {
 
 
 function changeTab(e) {
-    img1.src = "/images/illustration-features-tab-1.svg";
-    img1.style.height = "350px";
-    img1.style.width = "540px";
-    img1.style.marginLeft = "20px";
-    if(media.matches) {
+    if(mediaLg.matches) {
+        img1.src = "/images/illustration-features-tab-1.svg";
+        img1.style.height = "350px";
+        img1.style.width = "540px";
+        img1.style.marginLeft = "25px";
+    } else if(media.matches) {
         img1.style.height = "270px";
         img1.style.width = "410px";
         img1.style.marginLeft = "0px";
