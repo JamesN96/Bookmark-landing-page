@@ -595,12 +595,12 @@ footer div#footer-left nav ul li a:hover {
         top: 680px;
         width: 74%;
         text-align: center;
+        display: none;
     }
     
     #header-icons img {
         padding-left: 50px;
         width: 30px;
-        display: none;
     }
 
     /* Intro section */
