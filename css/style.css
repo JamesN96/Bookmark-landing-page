@@ -38,10 +38,7 @@ body {
 
 a {
     text-decoration: none;
-}
-
-a:visited {
-    /* color: black; */
+    color: black;
 }
 
 a:hover {
