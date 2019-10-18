@@ -64,6 +64,7 @@ function toggleCollapse(e) {
         ul.style.display = "";
         header.removeAttribute("style");
         toggle.src = "/images/icon-hamburger.svg";
+        headerIcon.style.display = "";
     }
 }
 
